@@ -3,6 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%
+    //request,response 사용 가능
     MemberRepository memberRepository = MemberRepository.getInstance();
     System.out.println("save.jsp");
     String username = request.getParameter("username");
