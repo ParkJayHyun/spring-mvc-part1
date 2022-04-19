@@ -11,9 +11,6 @@ public class MyView {
 
     private String viewPath;
 
-    public MyView() {
-    }
-
     public MyView(String viewPath) {
         this.viewPath = viewPath;
     }
